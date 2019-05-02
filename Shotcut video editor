@@ -1,0 +1,16 @@
+-------- Insall Snap in Ubuntu/Debian --------
+$ sudo apt install snapd
+
+-------- Insall Snap in Fedora --------
+$ sudo dnf install snapd
+$sudo systemctl enable --now snapd.service
+
+to install shotcut
+$ sudo snap install shotcut --classic
+
+for update use
+$ sudo snap refresh shotcut --classic
+
+$ tar -xvf shotcut-linux-x86_64-170205.tar.bz2
+$ cd Shotcut
+$ ./Shotcut.app/shotcut
